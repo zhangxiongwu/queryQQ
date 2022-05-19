@@ -1,8 +1,7 @@
 import React,{useState,useEffect,useContext} from 'react'
 import './index.scss'
-import HelloWorld from '../../components/HelloWorld'
 
-const Index = (propsObj)=>{
+const HelloworldComponent = (propsObj)=>{
     const [state,setState] = useState({
         test: ''
     })
@@ -32,9 +31,8 @@ const Index = (propsObj)=>{
     }
     */
 
-    return <div className="index-page">
-        <div className="test">index-page</div>
-        <HelloWorld></HelloWorld>
+    return <div className="helloworld-component">
+        <div className="test">helloworld</div>
     </div>
 }
-export default Index
+export default HelloworldComponent
