@@ -1,4 +1,5 @@
 import React,{useState,useEffect,useContext} from 'react'
+import './index.scss'
 
 const Index = (propsObj)=>{
     const [state,setState] = useState({
@@ -31,7 +32,7 @@ const Index = (propsObj)=>{
     */
 
     return <div className="index-page">
-        index-page
+        <div className="test">index-page</div>
     </div>
 }
 export default Index
